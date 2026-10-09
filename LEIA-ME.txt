@@ -1,0 +1,24 @@
+PUBLICAR NO GITHUB PAGES
+
+1. Crie um repositório público no GitHub, por exemplo: batalha-sans.
+2. Extraia este ZIP no seu computador. Não envie o ZIP diretamente.
+3. No repositório, use Add file > Upload files.
+4. Envie index.html e nomes-dos-arquivos.txt na raiz do repositório.
+5. Salve pelo botão Commit changes.
+6. Abra Settings > Pages.
+7. Em Build and deployment, selecione Deploy from a branch.
+8. Em Branch, escolha main e / (root). Clique em Save.
+9. Aguarde a publicação e confira o endereço em Settings > Pages.
+   Geralmente: https://SEU-USUARIO.github.io/batalha-sans/
+
+Se a branch tiver outro nome, escolha a branch onde você enviou os arquivos.
+O index.html deve ficar na raiz, sem estar dentro de uma pasta extra.
+
+PERSONALIZAÇÃO
+Os uploads feitos no painel são salvos somente no navegador usado.
+Para publicar suas imagens e sons para todos, carregue-os no jogo,
+clique em EXPORTAR HTML e substitua o index.html do repositório pelo
+HTML exportado. O GitHub Pages publicará a nova versão automaticamente.
+O ZIP original não contém arquivos enviados por você pelo navegador.
+
+O jogo funciona diretamente no navegador, sem npm ou instalação.

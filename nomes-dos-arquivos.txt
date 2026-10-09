@@ -1,0 +1,84 @@
+ARQUIVOS PERSONALIZADOS — SANS
+=============================
+
+COMO CARREGAR
+1. Abra index.html no navegador.
+2. No menu, clique na área invisível à direita da cabeça do Sans.
+   Digite sua senha para abrir o painel.
+3. Clique em CARREGAR ARQUIVOS e selecione seus PNGs e MP3s.
+4. Use os nomes abaixo, em letras minúsculas, sem acentos ou espaços.
+5. Clique em EXPORTAR HTML para guardar tudo dentro de um novo index.html.
+6. Publique o HTML exportado no GitHub Pages.
+
+Você pode carregar só os arquivos que quiser. O restante usa os desenhos
+pixelados e efeitos 8-bit padrão. Cada arquivo aceita até 15 MB.
+Os uploads são salvos no armazenamento deste navegador e sobrevivem ao
+recarregamento. Limpar os dados do navegador remove essa cópia local.
+No modo privado ou se o armazenamento estiver bloqueado, exporte o HTML.
+Para que todos no site vejam os arquivos, exporte o HTML personalizado
+e substitua o index.html publicado no GitHub Pages. GitHub Pages é
+hospedagem estática e não grava uploads diretamente no repositório.
+O HTML exportado funciona sozinho e já contém os PNGs e MP3s carregados.
+RESTAURAR PADRÃO remove as substituições da sessão.
+
+IMAGENS PNG
+-----------
+cabecadosans.png      Cabeça do Sans no menu inicial.
+sans.png              Sans inteiro com vida cheia.
+sansmachucado1.png     Primeiro estágio de ferimento.
+sansmachucado2.png     Segundo estágio de ferimento.
+sansmachucado3.png     Terceiro estágio opcional.
+sansmachucado4.png     Quarto estágio opcional.
+...                   Continue: sansmachucado5.png, sansmachucado6.png, etc.
+cabecadoblaster.png    Cabeça do blaster, olhando para a DIREITA.
+ossosdachuva.png       Osso vertical, usado nos ataques de ossos.
+bomba.png             Bomba, incluindo o pavio se desejar.
+fragmentodebomba.png   Fragmento lançado na explosão da bomba.
+
+Os estágios carregados são ordenados pelo número e distribuídos pela vida.
+Com dois machucados: sans acima de 66,7%; machucado1 até 66,7%;
+machucado2 até 33,3%. Com três: transições em 75%, 50% e 25%.
+Sem imagens de ferimento, continuam os três desenhos originais.
+Não é obrigatório carregar todos os números, mas recomenda-se não pular.
+
+Use fundo transparente. Tamanhos sugeridos:
+- cabecadosans.png: 32 x 30 px (ou outro tamanho com proporção semelhante).
+- sans.png e sansmachucadoN.png: 64 x 64 px, incluindo o corpo completo.
+- cabecadoblaster.png: 36 x 32 px, orientada para a direita.
+- ossosdachuva.png: 8 x 12 px.
+- bomba.png: 24 x 30 px.
+- fragmentodebomba.png: 8 x 8 px.
+
+Outras dimensões são aceitas. As imagens mantêm a proporção e usam escala
+sem suavização. Mantenha margens transparentes pequenas. O blaster gira
+automaticamente para acompanhar disparos verticais e diagonais.
+As imagens não alteram o tamanho da colisão dos ataques.
+
+EFEITOS SONOROS MP3
+------------------
+selecionar.mp3       Seleção de dificuldade e ações do menu de batalha.
+fugir.mp3           Esquiva do botão FUGIR.
+inicio.mp3          Início da batalha.
+fala.mp3            Pequeno som repetido durante a escrita das falas.
+ataque.mp3          Golpe do jogador contra Sans.
+cura.mp3            Recuperação de vida.
+dano.mp3            Coração recebendo dano.
+blaster_carga.mp3   Blaster preparando o disparo.
+blaster_raio.mp3    Disparo do raio azul.
+bomba_aparece.mp3   Bomba surgindo na arena.
+bomba_pavio.mp3     Pulso do pavio, repetido até explodir.
+bomba_explode.mp3   Explosão da bomba.
+ossos.mp3           Surgimento de uma onda de ossos.
+vitoria.mp3         Final vitorioso, por combate ou misericórdia.
+derrota.mp3         Fim de jogo por perder toda a vida.
+pausa.mp3           Pausar e continuar a batalha.
+
+Use sons curtos, sem silêncio inicial. Para fala.mp3, prefira um efeito
+8-bit de 30 a 60 milissegundos; ele toca repetidamente durante o diálogo.
+Para bomba_pavio.mp3 e ossos.mp3, prefira efeitos abaixo de 150 ms.
+Não é necessário criar MP3s para ter som: todos os eventos acima já têm
+um efeito sintetizado padrão. O som começa após interação com a página,
+conforme as regras do navegador. SOM: ON/OFF controla todos os efeitos.
+
+Não há música de fundo configurada nesta versão.
+
